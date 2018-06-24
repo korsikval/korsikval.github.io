@@ -1,27 +1,20 @@
+@media screen and color (min-width: 768px){
+	#sidebar {display:none;}
+}
 *{
 	margin:0;
 	padding:0;
 }
+
 html (height:100%)
 
 ul{
 	link-style:none;
 }
 
-a{
-	text-decoration:none;
-	outline:none;
-//	<!--text color for "click here: #e1837f;"-->
-	color: #e6a3a0;
-}
-
-a:hover {
-    color:#e1837f;
-}
 
 body{
-	opacity: 0.71;
-    color: #000000;
+	color: #000000;
     font-family: "Arial MT", "Times New Roman PSMT", sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -73,7 +66,9 @@ header{
 .navigation{
 	/* Style for "Group 45" */
     width: 585px;
-    height: 33px;
+	height: 33px;
+    align-items: center;
+    display: flex;
 	}
 .menu {
 	list-style:none;
@@ -83,26 +78,46 @@ header{
     font-weight: 400;
     text-transform: uppercase;
 	justify-content: space-between;
+	height: 13px;
+	align-items: center;
 }
-.menu_item{
-	margin-left:23px; 
-}
+.menu_item {
+	margin-right:28px; 
+	}
 	
+.menu_item_home {
+    margin-right:15px;
+}
+.last_menu_item {
+	margin:0 auto;
+}	
 .menu_link{
 	/* Base style */
     color: #85423f;
-}
+	height: 13px;
+	}
 
 .menu_link_home{
 	/* Style for "Shape 12" */
-    color: #ffffff;
-	background-color: #eb6c10;
+    background-color: #eb6c10;
+	border-radius: 5px;
+	color: #ffffff;
+	padding: 5px 10px 5px 10px;
+}
+a{
+	text-decoration:none;
+	/*outline:none;*/
+	color: #e6a3a0;
+}
+
+a:hover {
+    color:#e1837f;
 }
 
 /*SLIDER*/
 .slider-wrapper {
     margin-bottom: 64px;
-	margin-top:149px;
+	margin-top:150px;
 	width:100%;
 	
 }.slider{
@@ -172,6 +187,30 @@ hr {
     opacity: 0.71;
 	position: relative;
 	display: flex;
+}
+.welcome{
+	width: 542px;
+	heigh: 207px;
+	
+}
+.h2 {
+	/* Style for "Welcome" */
+    height: 18px;
+    color: #5d0400;
+    font-family: "Times New Roman PSMT";
+    font-size: 25px;
+    font-weight: 400;
+}
+.welcome p {
+	/* Style for "Click here" */
+   width: 310px;
+   height: 103px;
+   opacity: 0.71;
+   color: #000000;
+   font-family: "Arial MT";
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 18px;
 }
 
 

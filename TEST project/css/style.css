@@ -1,0 +1,178 @@
+*{
+	margin:0;
+	padding:0;
+}
+html (height:100%)
+
+ul{
+	link-style:none;
+}
+
+a{
+	text-decoration:none;
+	outline:none;
+//	<!--text color for "click here: #e1837f;"-->
+	color: #e6a3a0;
+}
+
+a:hover {
+    color:#e1837f;
+}
+
+body{
+	opacity: 0.71;
+    color: #000000;
+    font-family: "Arial MT", "Times New Roman PSMT", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.page-wrapper{
+	width: 1600px;
+}
+header{
+	/* Style for "Group 20" */
+	position: absolute;
+	top:0px;
+	left:0px;
+	z-index:99;
+	width: 1600px;
+    height: 149px;
+}
+.top_header_pannel{
+	/* Style for "Layer 42" */
+	
+   /*width: 1600px;*/
+    height: 27px;
+	background-color: #eb6c10
+}
+.page_header{
+	/* Style for "Layer 60" */
+    height: 123px;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.09);
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.wrapper {
+	/* Style for "12 Col Gri" */
+    width: 940px;
+	margin:0 auto;
+}	
+	
+.header-wrap{
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	}
+.logo {
+	/* Style for "Layer 80" */
+    width: 266px;
+    height: 72px;
+}
+.navigation{
+	/* Style for "Group 45" */
+    width: 585px;
+    height: 33px;
+	}
+.menu {
+	list-style:none;
+	display: flex;
+	font-family: "Noto Sans";
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+	justify-content: space-between;
+}
+.menu_item{
+	margin-left:23px; 
+}
+	
+.menu_link{
+	/* Base style */
+    color: #85423f;
+}
+
+.menu_link_home{
+	/* Style for "Shape 12" */
+    color: #ffffff;
+	background-color: #eb6c10;
+}
+
+/*SLIDER*/
+.slider-wrapper {
+    margin-bottom: 64px;
+	margin-top:149px;
+	width:100%;
+	
+}.slider{
+	position: relative;
+    display: block;
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.banner{
+	width: 1600px;
+    height: 615px;
+	overflow: hidden;
+}
+.banner-slide{
+	position: static;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    opacity: 1;
+    display: block;
+
+}
+.pager{
+	text-align: center;
+    z-index: 15;
+    position: absolute;
+    bottom: 0;
+    top: auto;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+	display:none;
+	}
+	
+.pager span {
+	width: 22px;
+    height: 22px;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #eb6c10;
+    border-radius: 50%;
+    margin-right: 13px;
+    }
+.pager span.active {
+	background-color: #ffffff;
+	border: 1px
+}
+.pager span:hover{
+	background-color: #e75353;
+}
+.main_block p{
+/* Style for "Group 21" */
+    white-space: nowrap;
+    height: 667px;
+}
+.part-1 div{
+	display: flex;
+    justify-content: space-between;
+}
+
+/* Style for "Lines" */
+hr {
+	border-top: 2px dotted #b3adad;
+	margin-bottom: 20px;
+   	height: 2px;
+    opacity: 0.71;
+	position: relative;
+	display: flex;
+}
+
+
+
